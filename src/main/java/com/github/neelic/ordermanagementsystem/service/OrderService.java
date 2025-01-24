@@ -43,7 +43,8 @@ public class OrderService {
         try {
             return objectMapper.writeValueAsString(order);
         } catch (JsonProcessingException e) {
-            throw new RuntimeException(e);
+            System.err.println(e.getMessage());
+            return "";
         }
     }
 

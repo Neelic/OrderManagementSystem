@@ -1,0 +1,31 @@
+[
+  {
+    "id": "fd46ba38-ba62-43c3-b594-6daba5ad2d8e",
+    "customerName": "Test client",
+    "totalPrice": 45,
+    "products": [
+      {
+        "id": "ab25375d-3ff4-4962-a2da-a090defe4a3f",
+        "name": "Other test product",
+        "price": 45
+      }
+    ]
+  },
+  {
+    "id": "341552c6-5661-4589-a0db-08d4834cab28",
+    "customerName": "Test client",
+    "totalPrice": 72.45,
+    "products": [
+      {
+        "id": "d62158ec-b3b9-4271-9d7d-642bbef5373f",
+        "name": "Test product",
+        "price": 27.45
+      },
+      {
+        "id": "ab25375d-3ff4-4962-a2da-a090defe4a3f",
+        "name": "Other test product",
+        "price": 45
+      }
+    ]
+  }
+]
