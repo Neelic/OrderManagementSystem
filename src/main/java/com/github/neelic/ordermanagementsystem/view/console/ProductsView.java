@@ -58,7 +58,6 @@ public class ProductsView implements View {
 
             if (!CONFIRM_CHOICE.equals(choice)) {
                 idProducts.add(products.get(Integer.parseInt(choice) - 1).getId());
-            } else {
                 System.out.printf("Выберете еще 1 продукт или нажмите %s, чтобы продолжить%n", CONFIRM_CHOICE);
             }
         } while (!CONFIRM_CHOICE.equals(choice));
